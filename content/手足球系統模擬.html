@@ -1,0 +1,156 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>CMSimfly</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+<script src="tipuesearch_content.js"></script>
+<script src="./../static/jquery.js"></script>
+<link rel="stylesheet" href="./../static/tipuesearch/css/tipuesearch.css">
+<script src="./../static/tipuesearch/tipuesearch_set.js"></script>
+<script src="./../static/tipuesearch/tipuesearch.min.js"></script>
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+
+<script type="text/javascript">
+/*shorthand of $(document).ready(function(){};); */
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+function doSearch() {
+     $('#tipue_search_input').tipuesearch({
+        newWindow: true, minimumLength: 2
+     });
+}
+$(document).ready(doSearch);
+</script>
+
+</head><header><h1>2019 Collaborative Product Design Internship BG3</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><div class="tipue_search_group"><input style="width: 6vw;" type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="Press enter key to search" required></div><li><a href='各組期末報告說明.html'>各組期末報告說明</a><li><a href='執行規劃.html'>執行規劃</a><ul><li><a href='手足球系統模擬.html'>手足球系統模擬</a></li></ul><li><a href='設計與繪圖.html'>設計與繪圖</a><ul><li><a href='零組件尺寸分析.html'>零組件尺寸分析</a><li><a href='參數設計與繪圖.html'>參數設計與繪圖</a><li><a href='細部設計與BOM.html'>細部設計與BOM</a></li></ul><li><a href='V-rep動態模擬.html'>V-rep動態模擬</a><ul><li><a href='送球機構設計與模擬.html'>送球機構設計與模擬</a><li><a href='系統功能展示.html'>系統功能展示</a></li></ul><li><a href='結案報告.html'>結案報告</a><ul><li><a href='專案口頭簡報.html'>專案口頭簡報</a><li><a href='專案報告書.html'>專案報告書</a></li></ul><li><a href='期中報告.html'>期中報告</a><ul><li><a href='Introduction.html'>Introduction</a><li><a href='Course.html'>Course</a><ul><li><a href='week1.html'>week1</a><li><a href='week2.html'>week2</a><li><a href='week3.html'>week3</a><li><a href='week4.html'>week4</a><li><a href='week5.html'>week5</a><li><a href='week6.html'>week6</a><li><a href='week7.html'>week7</a><li><a href='week8.html'>week8</a><li><a href='week9.html'>week9</a><li><a href='week10.html'>week10</a><li><a href='week11.html'>week11</a><li><a href='week12.html'>week12</a><li><a href='week13.html'>week13</a><li><a href='week14.html'>week14</a><li><a href='week15.html'>week15</a></li></ul><li><a href='Independent study.html'>Independent study</a><ul><li><a href='w5.html'>w5</a><li><a href='w6.html'>w6</a><li><a href='w7.html'>w7</a><li><a href='w8.html'>w8</a><li><a href='w9.html'>w9</a><li><a href='w10.html'>w10</a><li><a href='w11.html'>w11</a><li><a href='w12.html'>w12</a><li><a href='w13.html'>w13</a><li><a href='w14.html'>w14</a><li><a href='w15.html'>w15</a></li></ul><li><a href='V-rep.html'>V-rep</a><ul><li><a href='Tutorial.html'>Tutorial</a></li></ul><li><a href='Experience-1.html'>Experience-1</a><ul><li><a href='2019.03.15.html'>2019.03.15</a><li><a href='2019.03.22.html'>2019.03.22</a><li><a href='2019.03.29.html'>2019.03.29</a><li><a href='2019.04.05.html'>2019.04.05</a><li><a href='2019.04.12.html'>2019.04.12</a><li><a href='2019.04.26.html'>2019.04.26</a><li><a href='2019.05.03.html'>2019.05.03</a><li><a href='2019.05.10.html'>2019.05.10</a><li><a href='2019.05.17.html'>2019.05.17</a><li><a href='2019.05.24.html'>2019.05.24</a><li><a href='2019.05.31.html'>2019.05.31</a></li></ul><li><a href='Git http and ssh.html'>Git http and ssh</a><li><a href='Directory Structure.html'>Directory Structure</a><li><a href='Page editing.html'>Page editing</a><ul><li><a href='Insert code.html'>Insert code</a></li></ul><li><a href='Q & A.html'>Q & A</a><li><a href='Midterm report.html'>Midterm report</a></li></ul><li><a href='期末進度.html'>期末進度</a><ul><li><a href='Assignment.html'>Assignment</a><li><a href='Experience-2.html'>Experience-2</a><ul><li><a href='40423207.html'>40423207</a><li><a href='40423160.html'>40423160</a><li><a href='40423131.html'>40423131</a><li><a href='40623207.html'>40623207</a><li><a href='40623218.html'>40623218</a><li><a href='40623219.html'>40623219</a><li><a href='40623231.html'>40623231</a><li><a href='40623237.html'>40623237</a><li><a href='40623241.html'>40623241</a><li><a href='40623246.html'>40623246</a></li></ul><li><a href='Attendance.html'>Attendance</a><li><a href='personal website.html'>personal website</a></li></ul></nav><section><div id="tipue_search_content">執行規劃 << <a href='執行規劃.html'>Previous</a> <a href='設計與繪圖.html'>Next</a> >> 設計與繪圖<br /><h1>手足球系統模擬</h1>
+<p>專案成果摘要</p>
+<p><span>手足球是由一個英國名為哈羅德的人發明，這個靈感的來自火柴盒，目的是將所以基本足球運動的概念能夠在一個盒子之中表現出來。</span></p>
+<p><span>而至今手足球已變成老少咸宜的桌上型運動，相對足球來說</span><span>某些事情在手足球裡被叫為”unraceable”，因為其操作是可以達到非常快速的，也是因為這個原因瘋迷了全球的玩家!</span></p>
+<p>專案執行動機</p>
+<p>本次的專案目的為，組織一個十人的團隊，利用"協同"的方式設計出個"可程式控制"的手足球機構，過程中會出現很多的衝突，但也必須藉由溝通來化解所有的問題，唯有不斷的嘗試和修正才能做出最完美的機構，希望透過這次的專案執行讓我們真正體會到"協同"的精隨!!</p>
+<p>相關文獻探討</p>
+<p>專案執行成員</p>
+<table border="2" style="width: 534px;">
+<tbody>
+<tr style="height: 47px;">
+<td style="height: 47px; width: 165.8px;"><strong>Leader</strong></td>
+<td style="height: 47px; width: 366.2px;">
+<pre class="tw-data-text tw-ta tw-text-large" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><strong><span lang="en">Assignments</span></strong></pre>
+</td>
+</tr>
+<tr style="height: 48px;">
+<td style="height: 48px; width: 165.8px;"><span>40423207 朱修林</span></td>
+<td style="height: 48px; width: 366.2px;">組織專案執行<span>、參數設計與繪圖</span></td>
+</tr>
+<tr style="height: 47px;">
+<td style="height: 47px; width: 165.8px;"><strong>Member</strong></td>
+<td style="height: 47px; width: 366.2px;">
+<pre class="tw-data-text tw-ta tw-text-large" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><strong><span lang="en">Assignments</span></strong></pre>
+</td>
+</tr>
+<tr style="height: 48px;">
+<td style="height: 48px; width: 165.8px;"><span>40423160 許育誠</span></td>
+<td style="height: 48px; width: 366.2px;"><span>送球機構設計模擬</span><br/><span></span></td>
+</tr>
+<tr style="height: 48px;">
+<td style="height: 48px; width: 165.8px;"><span>40423131 許承恩</span></td>
+<td style="height: 48px; width: 366.2px;"><br/><span></span></td>
+</tr>
+<tr style="height: 48px;">
+<td style="height: 48px; width: 165.8px;"><span>40623207 呂沛蓉</span></td>
+<td style="height: 48px; width: 366.2px;"><span>細部設計 Bom 表</span><br/><span></span></td>
+</tr>
+<tr style="height: 47px;">
+<td style="height: 47px; width: 165.8px;"><span>40623218 姚浚洧</span></td>
+<td style="height: 47px; width: 366.2px;"></td>
+</tr>
+<tr style="height: 48px;">
+<td style="height: 48px; width: 165.8px;"><span>40623219   蘇昱</span></td>
+<td style="height: 48px; width: 366.2px;"><br/><span></span></td>
+</tr>
+<tr style="height: 48px;">
+<td style="height: 48px; width: 165.8px;"><span>40623231 周駿麟</span></td>
+<td style="height: 48px; width: 366.2px;"><span>送球機構設計模擬</span></td>
+</tr>
+<tr style="height: 48.8px;">
+<td style="height: 48.8px; width: 165.8px;"><span>40623237 黃博隆</span></td>
+<td style="height: 48.8px; width: 366.2px;"><span>V-rep手足球機構模擬</span></td>
+</tr>
+<tr style="height: 48px;">
+<td style="height: 48px; width: 165.8px;"><span>40623241 郭祐齊</span></td>
+<td style="height: 48px; width: 366.2px;">
+<p><span>零組件尺寸分析、專</span><span>案報告書、更新網誌</span></p>
+</td>
+</tr>
+<tr style="height: 48px;">
+<td style="height: 48px; width: 165.8px;"><span>40623246 劉柏瑞</span></td>
+<td style="height: 48px; width: 366.2px;"><span>送球機構設計模擬、更新網誌</span></td>
+</tr>
+<tr style="height: 48px;">
+<td style="height: 48px; width: 165.8px;"></td>
+<td style="height: 48px; width: 366.2px;"></td>
+</tr>
+</tbody>
+</table>
+<p>執行使用套件</p>
+<p>onshape <span>、V-rep、Github</span></p>
+<p>專案執行過程規劃</p>
+<p>分配工作→概略規劃→開始各自完成任務→問題討論→2D構想完成→V-rep模擬→實體化→完成專案</p>
+<p>專案執行內容</p>
+<p>專案結論</p><br />執行規劃 << <a href='執行規劃.html'>Previous</a> <a href='設計與繪圖.html'>Next</a> >> 設計與繪圖</div></section></div></body></html>

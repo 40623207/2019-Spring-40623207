@@ -1,0 +1,142 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>CMSimfly</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+<script src="tipuesearch_content.js"></script>
+<script src="./../static/jquery.js"></script>
+<link rel="stylesheet" href="./../static/tipuesearch/css/tipuesearch.css">
+<script src="./../static/tipuesearch/tipuesearch_set.js"></script>
+<script src="./../static/tipuesearch/tipuesearch.min.js"></script>
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+
+<script type="text/javascript">
+/*shorthand of $(document).ready(function(){};); */
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+function doSearch() {
+     $('#tipue_search_input').tipuesearch({
+        newWindow: true, minimumLength: 2
+     });
+}
+$(document).ready(doSearch);
+</script>
+
+</head><header><h1>2019 Collaborative Product Design Internship BG3</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><div class="tipue_search_group"><input style="width: 6vw;" type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="Press enter key to search" required></div><li><a href='各組期末報告說明.html'>各組期末報告說明</a><li><a href='執行規劃.html'>執行規劃</a><ul><li><a href='手足球系統模擬.html'>手足球系統模擬</a></li></ul><li><a href='設計與繪圖.html'>設計與繪圖</a><ul><li><a href='零組件尺寸分析.html'>零組件尺寸分析</a><li><a href='參數設計與繪圖.html'>參數設計與繪圖</a><li><a href='細部設計與BOM.html'>細部設計與BOM</a></li></ul><li><a href='V-rep動態模擬.html'>V-rep動態模擬</a><ul><li><a href='送球機構設計與模擬.html'>送球機構設計與模擬</a><li><a href='系統功能展示.html'>系統功能展示</a></li></ul><li><a href='結案報告.html'>結案報告</a><ul><li><a href='專案口頭簡報.html'>專案口頭簡報</a><li><a href='專案報告書.html'>專案報告書</a></li></ul><li><a href='期中報告.html'>期中報告</a><ul><li><a href='Introduction.html'>Introduction</a><li><a href='Course.html'>Course</a><ul><li><a href='week1.html'>week1</a><li><a href='week2.html'>week2</a><li><a href='week3.html'>week3</a><li><a href='week4.html'>week4</a><li><a href='week5.html'>week5</a><li><a href='week6.html'>week6</a><li><a href='week7.html'>week7</a><li><a href='week8.html'>week8</a><li><a href='week9.html'>week9</a><li><a href='week10.html'>week10</a><li><a href='week11.html'>week11</a><li><a href='week12.html'>week12</a><li><a href='week13.html'>week13</a><li><a href='week14.html'>week14</a><li><a href='week15.html'>week15</a></li></ul><li><a href='Independent study.html'>Independent study</a><ul><li><a href='w5.html'>w5</a><li><a href='w6.html'>w6</a><li><a href='w7.html'>w7</a><li><a href='w8.html'>w8</a><li><a href='w9.html'>w9</a><li><a href='w10.html'>w10</a><li><a href='w11.html'>w11</a><li><a href='w12.html'>w12</a><li><a href='w13.html'>w13</a><li><a href='w14.html'>w14</a><li><a href='w15.html'>w15</a></li></ul><li><a href='V-rep.html'>V-rep</a><ul><li><a href='Tutorial.html'>Tutorial</a></li></ul><li><a href='Experience-1.html'>Experience-1</a><ul><li><a href='2019.03.15.html'>2019.03.15</a><li><a href='2019.03.22.html'>2019.03.22</a><li><a href='2019.03.29.html'>2019.03.29</a><li><a href='2019.04.05.html'>2019.04.05</a><li><a href='2019.04.12.html'>2019.04.12</a><li><a href='2019.04.26.html'>2019.04.26</a><li><a href='2019.05.03.html'>2019.05.03</a><li><a href='2019.05.10.html'>2019.05.10</a><li><a href='2019.05.17.html'>2019.05.17</a><li><a href='2019.05.24.html'>2019.05.24</a><li><a href='2019.05.31.html'>2019.05.31</a></li></ul><li><a href='Git http and ssh.html'>Git http and ssh</a><li><a href='Directory Structure.html'>Directory Structure</a><li><a href='Page editing.html'>Page editing</a><ul><li><a href='Insert code.html'>Insert code</a></li></ul><li><a href='Q & A.html'>Q & A</a><li><a href='Midterm report.html'>Midterm report</a></li></ul><li><a href='期末進度.html'>期末進度</a><ul><li><a href='Assignment.html'>Assignment</a><li><a href='Experience-2.html'>Experience-2</a><ul><li><a href='40423207.html'>40423207</a><li><a href='40423160.html'>40423160</a><li><a href='40423131.html'>40423131</a><li><a href='40623207.html'>40623207</a><li><a href='40623218.html'>40623218</a><li><a href='40623219.html'>40623219</a><li><a href='40623231.html'>40623231</a><li><a href='40623237.html'>40623237</a><li><a href='40623241.html'>40623241</a><li><a href='40623246.html'>40623246</a></li></ul><li><a href='Attendance.html'>Attendance</a><li><a href='personal website.html'>personal website</a></li></ul></nav><section><div id="tipue_search_content">Experience-1 << <a href='Experience-1.html'>Previous</a> <a href='2019.03.22.html'>Next</a> >> 2019.03.22<br /><h1>2019.03.15</h1>
+<h4>40423207-4</h4>
+<p>本週上課說明了如何編輯 git credential 設定，以及利用 config 設定因應 Github 多帳號下的 ssh 連線，並利用 ssh 與 private key 對 Github 倉儲提交推送。將 <a href="https://github.com/mdecourse/cmstest clone">https://github.com/mdecourse/cmstest clone</a> 後，內容複製到分組網站。</p>
+<h4>40423160-4</h4>
+<p></p>
+<p><span>這週主要是透過SSH做為可以不用再打帳號密碼，更新github的時候就透過金鑰，可以直接將隨身碟跟github座連接，不過在建立步驟中就遇到許多問題了，就一直重複觀看老師上傳的影片，許多指令也很不熟悉，剛好網路也遇到問題，老師就再教了IPV6跟IPV4的使用方法跟連接ssh的方法。</span></p>
+<h4>40423131-4</h4>
+<p>建立可攜系統:</p>
+<p><strong>1.將Python、Scite、HxD、Kdiff3和TinyC都下載好，解壓</strong>縮。</p>
+<p></p>
+<p><img caption="false" height="403" src="./../images/31-01.JPG" width="600"/></p>
+<p></p>
+<p><img alt="" height="376" src="./../images/31-02.JPG" width="600"/></p>
+<p><img caption="false" height="327" src="./../images/31-03.JPG" width="600"/></p>
+<p><img alt="" height="265" src="./../images/31-04.JPG" width="600"/></p>
+<p><img alt="" height="343" src="./../images/31-05.JPG" width="600"/></p>
+<p><img alt="" height="368" src="./../images/31-06.JPG" width="600"/></p>
+<p>......等等軟體。<br/><br/><strong>2.安裝</strong></p>
+<p>(1)python安裝</p>
+<p>在Optional Features介面 ，勾選2 3 5。並選擇要安裝的位置。</p>
+<p><span>(2)打開HxD，對P37-&gt;Scripts裡的pip檔做更改，先用搜尋找C:，之後修改成y:\p37\python</span></p>
+<p><span><img alt="" height="337" src="./../images/31-07.JPG" width="600"/></span></p>
+<p><span>3.打開Scite，打開SciTEGlobal.properties 之後搜尋code，修改298行和299行</span></p>
+<p><span><img alt="" height="733" src="./../images/31-08.JPG" width="564"/></span></p>
+<p><span>4.在資料夾中搜尋cpp，修改475行和476行，新增cc=y:\tcc\tcc.exe -run 和ccc=y:\tcc\tcc.exe -run這兩行</span></p>
+<p><span><img alt="" height="733" src="./../images/31-09.JPG" width="564"/></span></p>
+<p><span>5.在資料夾中搜尋python，修改152行和160行</span></p>
+<p><span><img alt="" height="730" src="./../images/31-10.JPG" width="558"/></span></p>
+<p><span>6.在scite中建立兩個新的檔案，其中一個存為start.bat，另一個存為stop.bat</span></p>
+<p><span><img alt="" height="857" src="./../images/31-12.JPG" width="600"/></span></p>
+<h4>40623207-4</h4>
+<p>本週上課說明了如何編輯 git credential 設定，以及利用 config 設定因應 Github 多帳號下的 ssh 連線，並利用 ssh 與 private key 對 Github 倉儲提交推送。將 <a href="https://github.com/mdecourse/cmstest">https://github.com/mdecourse/cmstest</a> clone 後，內容複製到分組網站。</p>
+<h4>40623218-4</h4>
+<p>這裡辦分組名單確認出來了，並要討論<span>如何做出手足球和進行v-rep模擬，</span>進入github協同。</p>
+<h4>40623219-4</h4>
+<p><span>在經過老師的分組後，我們開始分配工作，而我的工作室負責v-rep的模擬，而其他分配到網頁維護的開始學習建立網站。</span></p>
+<h4>40623231-4</h4>
+<p>在2下這個學期也是和上學期一樣一起協同倉儲，<br/>但是組員是用程式亂數抽籤分配，並開始分工，<br/>從擅長的事選擇起。</p>
+<p>1.<span>將Python、Scite、HxD、Kdiff3、TinyC下載下來，然後再將每個進行解壓縮。</span></p>
+<p><span><img alt="" height="278" src="./../images/Python-1 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="268" src="./../images/Python-2 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="244" src="./../images/Python-3 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="309" src="./../images/Python-4 31.jpg" width="500"/></span></p>
+<p><span>選擇下載位置</span></p>
+<p><span><img alt="" height="309" src="./../images/Python-5 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="323" src="./../images/HxD-1 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="247" src="./../images/HxD-2 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="239" src="./../images/HxD-3 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="285" src="./../images/Kdiff3-1 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="265" src="./../images/Kdiff3-2 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="251" src="./../images/Scite-1 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="251" src="./../images/Scite-2 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="271" src="./../images/TinyC-1 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="248" src="./../images/TinyC-2 31.jpg" width="500"/></span></p>
+<p><span><img alt="" height="259" src="./../images/TinyC-3 31.jpg" width="500"/></span></p>
+<h4>40623237-4</h4>
+<p>於第四周為了手足球的專題而分了組，而我被分到此組，也就是<span style="color: #ff0000;">第三組</span>。負責的部分為手足球v-rep之<span style="text-decoration: underline;">模擬</span>。也於課堂中更新了可攜系統(<strong>cd2019_cdb_w4</strong>)最新版本，並存至個人隨身碟中。</p>
+<h4>40623241-4</h4>
+<p>心得 : 這學期開始也是要協同，目標為完成手足球，並且用vrep模擬，希望可以再多學一些東西，第三組的各位加油!!</p>
+<h4>40623246-4</h4>
+<p>經過分組後，已經確定組員，那也必須盡快決定分工，開始把網站架設後，討論如何做出手足球並用V-rep進行模擬。從零開始的架設網頁，讓大家都有點手忙腳亂，而且在建立倉儲的時候還出了點trouble，但是還好最後總算是有出來了。</p>
+<br />Experience-1 << <a href='Experience-1.html'>Previous</a> <a href='2019.03.22.html'>Next</a> >> 2019.03.22</div></section></div></body></html>

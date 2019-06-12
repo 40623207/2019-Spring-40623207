@@ -1,0 +1,117 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>CMSimfly</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+<script src="tipuesearch_content.js"></script>
+<script src="./../static/jquery.js"></script>
+<link rel="stylesheet" href="./../static/tipuesearch/css/tipuesearch.css">
+<script src="./../static/tipuesearch/tipuesearch_set.js"></script>
+<script src="./../static/tipuesearch/tipuesearch.min.js"></script>
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+
+<script type="text/javascript">
+/*shorthand of $(document).ready(function(){};); */
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+function doSearch() {
+     $('#tipue_search_input').tipuesearch({
+        newWindow: true, minimumLength: 2
+     });
+}
+$(document).ready(doSearch);
+</script>
+
+</head><header><h1>2019 Collaborative Product Design Internship BG3</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><div class="tipue_search_group"><input style="width: 6vw;" type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="Press enter key to search" required></div><li><a href='各組期末報告說明.html'>各組期末報告說明</a><li><a href='執行規劃.html'>執行規劃</a><ul><li><a href='手足球系統模擬.html'>手足球系統模擬</a></li></ul><li><a href='設計與繪圖.html'>設計與繪圖</a><ul><li><a href='零組件尺寸分析.html'>零組件尺寸分析</a><li><a href='參數設計與繪圖.html'>參數設計與繪圖</a><li><a href='細部設計與BOM.html'>細部設計與BOM</a></li></ul><li><a href='V-rep動態模擬.html'>V-rep動態模擬</a><ul><li><a href='送球機構設計與模擬.html'>送球機構設計與模擬</a><li><a href='系統功能展示.html'>系統功能展示</a></li></ul><li><a href='結案報告.html'>結案報告</a><ul><li><a href='專案口頭簡報.html'>專案口頭簡報</a><li><a href='專案報告書.html'>專案報告書</a></li></ul><li><a href='期中報告.html'>期中報告</a><ul><li><a href='Introduction.html'>Introduction</a><li><a href='Course.html'>Course</a><ul><li><a href='week1.html'>week1</a><li><a href='week2.html'>week2</a><li><a href='week3.html'>week3</a><li><a href='week4.html'>week4</a><li><a href='week5.html'>week5</a><li><a href='week6.html'>week6</a><li><a href='week7.html'>week7</a><li><a href='week8.html'>week8</a><li><a href='week9.html'>week9</a><li><a href='week10.html'>week10</a><li><a href='week11.html'>week11</a><li><a href='week12.html'>week12</a><li><a href='week13.html'>week13</a><li><a href='week14.html'>week14</a><li><a href='week15.html'>week15</a></li></ul><li><a href='Independent study.html'>Independent study</a><ul><li><a href='w5.html'>w5</a><li><a href='w6.html'>w6</a><li><a href='w7.html'>w7</a><li><a href='w8.html'>w8</a><li><a href='w9.html'>w9</a><li><a href='w10.html'>w10</a><li><a href='w11.html'>w11</a><li><a href='w12.html'>w12</a><li><a href='w13.html'>w13</a><li><a href='w14.html'>w14</a><li><a href='w15.html'>w15</a></li></ul><li><a href='V-rep.html'>V-rep</a><ul><li><a href='Tutorial.html'>Tutorial</a></li></ul><li><a href='Experience-1.html'>Experience-1</a><ul><li><a href='2019.03.15.html'>2019.03.15</a><li><a href='2019.03.22.html'>2019.03.22</a><li><a href='2019.03.29.html'>2019.03.29</a><li><a href='2019.04.05.html'>2019.04.05</a><li><a href='2019.04.12.html'>2019.04.12</a><li><a href='2019.04.26.html'>2019.04.26</a><li><a href='2019.05.03.html'>2019.05.03</a><li><a href='2019.05.10.html'>2019.05.10</a><li><a href='2019.05.17.html'>2019.05.17</a><li><a href='2019.05.24.html'>2019.05.24</a><li><a href='2019.05.31.html'>2019.05.31</a></li></ul><li><a href='Git http and ssh.html'>Git http and ssh</a><li><a href='Directory Structure.html'>Directory Structure</a><li><a href='Page editing.html'>Page editing</a><ul><li><a href='Insert code.html'>Insert code</a></li></ul><li><a href='Q & A.html'>Q & A</a><li><a href='Midterm report.html'>Midterm report</a></li></ul><li><a href='期末進度.html'>期末進度</a><ul><li><a href='Assignment.html'>Assignment</a><li><a href='Experience-2.html'>Experience-2</a><ul><li><a href='40423207.html'>40423207</a><li><a href='40423160.html'>40423160</a><li><a href='40423131.html'>40423131</a><li><a href='40623207.html'>40623207</a><li><a href='40623218.html'>40623218</a><li><a href='40623219.html'>40623219</a><li><a href='40623231.html'>40623231</a><li><a href='40623237.html'>40623237</a><li><a href='40623241.html'>40623241</a><li><a href='40623246.html'>40623246</a></li></ul><li><a href='Attendance.html'>Attendance</a><li><a href='personal website.html'>personal website</a></li></ul></nav><section><div id="tipue_search_content">2019.04.05 << <a href='2019.04.05.html'>Previous</a> <a href='2019.04.26.html'>Next</a> >> 2019.04.26<br /><h1>2019.04.12</h1>
+<h4>40423207-8</h4>
+<h4><strong>RubbleRob Practice</strong></h4>
+<p>RubbleRob Practice video part1</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/3wv0RTFCOzA" width="560"></iframe></p>
+<p><span>RubbleRob Practice video part2</span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/J8PauvMna0Q" width="560"></iframe></span></p>
+<p><span>RubbleRob Practice video part3</span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/JLjX1atu_NE" width="560"></iframe></span></p>
+<p><span>RubbleRob Practice video part4</span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/OFsFOOBxKxM" width="560"></iframe></span></p>
+<h4>40423160-8</h4>
+<p>這周是在做實習任務三<a href="http://www.coppeliarobotics.com/helpFiles/en/buildingAModelTutorial.htm">http://www.coppeliarobotics.com/helpFiles/en/buildingAModelTutorial.htm</a><span> </span></p>
+<p>先利用onshape繪製類似的構造</p>
+<p><img alt="" height="589" src="./../images/40423160-W8.png" width="809"/></p>
+<p><a href="https://cad.onshape.com/documents/d4300f1277b25602bbac6e5a/w/2f8dde5ed823b97d20ac86c1/e/e56abdd445d4c86cb793d442">https://cad.onshape.com/documents/d4300f1277b25602bbac6e5a/w/2f8dde5ed823b97d20ac86c1/e/e56abdd445d4c86cb793d442</a></p>
+<p>再轉入到vrep裡面做模擬</p>
+<h4>40423131-8</h4>
+<p><span>上傳時陸陸續續遇到衝突，弄得頭都要崩了，結果一問之下是自己的順序用錯了，搞啥阿來著，思緒一亂甚麼都錯...。這週預備週，準備下週考試，這堂課的進度也慢慢在補上。</span></p>
+<h4>40623207-8</h4>
+<p>本週上課老師說明了協同產品設計流程的教育目標，希望因應快速發展的網際雲端環境，利用敏捷可攜的程式環境，透過諸如 V-rep、Webots、ungit 與 GitExtensions 等工具，在便捷的雲端系統搭建自己能夠掌控的機械設計流程，並試圖開發出合用的工具與套件。<br/>今天介紹了實習任務三的 Building a clean model tutorial 到第十週前要將它做完。</p>
+<h4>40623218-8</h4>
+<p>下禮拜就是期中考週，老師要我們上課時拍五分鐘的影片裡面要我們這半學期學到的東西，並且個人在推送到分組網站要自己解決衝突問題，並上台報告。</p>
+<h4>40623219-8</h4>
+<p><span>下一周就要期中考了，所以要把前幾周缺的資料補一補，並且老師有說期中考的內容，雖然我還是不知道期中考到底要怎麼用。</span></p>
+<h4>40623231-8</h4>
+<p>這週上課老師講解了實習項目三 首先須在OnShape繪製大概的尺寸<br/>然後再丟入vrep裡面進行運動與動態模擬 此外還必須考慮模擬過程<br/>的實用性<br/><a href="http://www.coppeliarobotics.com/helpFiles/en/buildingAModelTutorial.htm" title="http://www.coppeliarobotics.com/helpFiles/en/buildingAModelTutorial.htm">http://www.coppeliarobotics.com/helpFiles/en/buildingAModelTutorial.htm</a></p>
+<h4>40623237-8</h4>
+<p>下周為期中考，可在<a href="http://mde.tw/#/">mde.tw</a>上的網誌聊解期中考的內容，得知期中考影片拍完要放置分組網站或<strong>個人網站</strong>，但本人認為個人期中考<span style="color: #ff0000;">不適合</span>放置在<strong>分組網站</strong>中，畢竟與主題不合，於是就放置在個人網站。以下為個人網站及github。</p>
+<p>my <span style="color: #ff0000;">github</span> : <a href="https://github.com/mdecadp2018/site-40623237" target="_blank">40623237 github</a></p>
+<p>my <span style="color: #ff0000;">website</span> : <a href="https://mdecadp2018.github.io/site-40623237/content/index.html" target="_blank">40623237 website</a></p>
+<h4>40623241-8</h4>
+<p>心得：下禮拜就是期中考週了，大家都陸陸續續的加東西上來，希望期中考週以前就可以完成</p>
+<p>Bubble Rob 模擬影片: <a href="https://www.youtube.com/watch?v=EwjMVLDm6CU">https://www.youtube.com/watch?v=EwjMVLDm6CU</a></p>
+<h4>40623246-8</h4>
+<p>這週上課做了BubbleRob，一整篇的全英文解說，一邊查單字，一邊看步驟，又要在一堆密密麻麻的文字裡找到關鍵的字詞，真的會死掉，然後不懂的功能又要一直請教會做的同學，真的太感謝他們了。</p>
+<br />2019.04.05 << <a href='2019.04.05.html'>Previous</a> <a href='2019.04.26.html'>Next</a> >> 2019.04.26</div></section></div></body></html>
