@@ -24,32 +24,45 @@
 <v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>OV</vh>
+<v t="leo.20180902120523.11"><vh>OV</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20190613204643.1" a="E"><vh>V</vh>
+<v t="leo.20190613204643.1"><vh>V</vh>
 <v t="leo.20190613204643.2"><vh>實習任務</vh>
 <v t="leo.20190613204643.3"><vh>實習任務</vh></v>
 </v>
-<v t="leo.20190613204643.4" a="E"><vh>照片</vh>
+<v t="leo.20190613204643.4"><vh>照片</vh>
 <v t="leo.20190613204643.5"><vh>照片</vh></v>
 </v>
-<v t="leo.20190613204643.6" a="E"><vh>影片</vh>
+<v t="leo.20190613204643.6"><vh>影片</vh>
 <v t="leo.20190613204643.7"><vh>影片</vh></v>
 </v>
 </v>
-<v t="leo.20190613212055.1" a="E"><vh>O</vh>
-<v t="leo.20190613212055.2" a="E"><vh>Onshape</vh>
+<v t="leo.20190613212055.1"><vh>O</vh>
+<v t="leo.20190613212055.2"><vh>Onshape</vh>
 <v t="leo.20190613212055.3"><vh>Onshape</vh></v>
 </v>
-<v t="leo.20190613212055.4" a="E"><vh>設計與繪圖</vh>
+<v t="leo.20190613212055.4"><vh>設計與繪圖</vh>
 <v t="leo.20190613212055.5"><vh>設計與繪圖</vh></v>
 </v>
-<v t="leo.20190613212055.6" a="E"><vh>Issue</vh>
+<v t="leo.20190613213858.1"><vh>聯結</vh>
+<v t="leo.20190613213858.2"><vh>Issue</vh></v>
+</v>
+<v t="leo.20190613212055.6"><vh>Issue</vh>
 <v t="leo.20190613212055.7"><vh>Issue</vh></v>
 </v>
 <v t="leo.20190613212941.1" a="E"><vh>聯結</vh>
 <v t="leo.20190613212941.2"><vh>Issue</vh></v>
+</v>
+</v>
+<v t="leo.20190613214135.1" a="E"><vh>推送</vh>
+<v t="leo.20190613214135.2" a="E"><vh>推送</vh>
+<v t="leo.20190613214135.3"><vh>推送</vh></v>
+</v>
+</v>
+<v t="leo.20190613214429.1"><vh>分數</vh>
+<v t="leo.20190613214429.2"><vh>分數</vh>
+<v t="leo.20190613214429.3"><vh>實習任務</vh></v>
 </v>
 </v>
 <v t="leo.20190613203244.1"><vh>快捷鍵</vh>
@@ -480,6 +493,71 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190613212941.2">## Issue網址
 
-[https://40623207.github.io/2019-Spring-40623207/content/Issue.html](https://40623207.github.io/2019-Spring-40623207/content/Issue.html)</t>
+[Issue](https://40623207.github.io/2019-Spring-40623207/content/Issue.html)</t>
+<t tx="leo.20190613213858.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190613213858.2">## 設計與繪圖網址
+
+[設計與繪圖](https://40623207.github.io/2019-Spring-40623207/content/%E8%A8%AD%E8%A8%88%E8%88%87%E7%B9%AA%E5%9C%96.html)</t>
+<t tx="leo.20190613214135.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190613214135.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190613214135.3">## 推送紀錄
+
+[BG3](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g3_1/graphs/contributors)
+
+[cd2019b](https://github.com/scrum-1/cd2019b/graphs/contributors)
+
+[個人](https://github.com/40623207/2019-Spring-40623207/graphs/contributors)</t>
+<t tx="leo.20190613214429.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190613214429.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190613214429.3">## 自評成績
+
+* 學員出席 (20%)
+    -自評 20 分
+* Github 倉儲管理  (20%)
+    -自評 15 分
+* Onshape 協同操作 (20%)
+    -自評 20 分
+* V-rep 模擬 (20%)
+    -自評 5 分
+* 程式開發 (20%)
+    -自評 0 分
+### 總分 60 分
+</t>
 </tnodes>
 </leo_file>
