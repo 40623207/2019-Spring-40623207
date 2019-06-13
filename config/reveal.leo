@@ -28,7 +28,7 @@
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20190613204643.1" a="E"><vh>V</vh>
-<v t="leo.20190613204643.2" a="E"><vh>實習任務</vh>
+<v t="leo.20190613204643.2"><vh>實習任務</vh>
 <v t="leo.20190613204643.3"><vh>實習任務</vh></v>
 </v>
 <v t="leo.20190613204643.4" a="E"><vh>照片</vh>
@@ -38,8 +38,19 @@
 <v t="leo.20190613204643.7"><vh>影片</vh></v>
 </v>
 </v>
-<v t="leo.20190613203816.1"><vh>O</vh>
-<v t="leo.20190613203816.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20190613212055.1" a="E"><vh>O</vh>
+<v t="leo.20190613212055.2" a="E"><vh>Onshape</vh>
+<v t="leo.20190613212055.3"><vh>Onshape</vh></v>
+</v>
+<v t="leo.20190613212055.4" a="E"><vh>設計與繪圖</vh>
+<v t="leo.20190613212055.5"><vh>設計與繪圖</vh></v>
+</v>
+<v t="leo.20190613212055.6" a="E"><vh>Issue</vh>
+<v t="leo.20190613212055.7"><vh>Issue</vh></v>
+</v>
+<v t="leo.20190613212941.1" a="E"><vh>聯結</vh>
+<v t="leo.20190613212941.2"><vh>Issue</vh></v>
+</v>
 </v>
 <v t="leo.20190613203244.1"><vh>快捷鍵</vh>
 <v t="leo.20190613203244.2"><vh>投影片快捷鍵</vh></v>
@@ -167,6 +178,7 @@ make.start()
 ### 導入影片 template
 
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -357,20 +369,6 @@ vertical: body pane on the botton</t>
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
-<t tx="leo.20190613203816.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190613203816.2">* Onshape
-* V-rep
-
-
-</t>
 <t tx="leo.20190613204643.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -417,7 +415,71 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190613204643.7">## 操作影片
 
-&lt;iframe src="https://www.youtube.com/watch?v=ndDfNTzgTE0" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe width="775" height="419" src="https://www.youtube.com/embed/ndDfNTzgTE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190613212055.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
 </t>
+<t tx="leo.20190613212055.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190613212055.3">## Onshape
+
+* 設計與繪圖
+* Issue
+</t>
+<t tx="leo.20190613212055.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190613212055.5">## 設計與繪圖
+
+* 零件 BOM
+* 零件尺寸圖
+* 零件部分組裝圖
+* 3D 零組件爆炸圖</t>
+<t tx="leo.20190613212055.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190613212055.7">## Issue
+
+* 標註球桿時發現組員是用雲形線繪製握把的部分，但是雲形線不方便標註，於是修改成方便標註的圓弧線。
+
+* 在標球桿的工程圖時，發現用了中斷視圖後有些標註會變紅字，但如果將問題處利用放大視圖拉出再標註後，就是正常的。</t>
+<t tx="leo.20190613212941.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190613212941.2">## Issue網址
+
+[https://40623207.github.io/2019-Spring-40623207/content/Issue.html](https://40623207.github.io/2019-Spring-40623207/content/Issue.html)</t>
 </tnodes>
 </leo_file>
